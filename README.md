@@ -6,14 +6,14 @@ This plugin will transform a text like:
 inlineTweet:https://twitter.com/code_conf/status/651724049463312384
 ```
 
-Into the inlined HTML of the inlineded tweet, with styles inlined and smaller images also inlined. Only large images will not be inlineded.
+Into the inlined HTML of the tweet, with no external JavaScript needed, with styles inlined and smaller images also inlined. Only large images will not be inlineded.
 
 You can see it in use at the bottom of my Danish page about my speaking engagements at [itforedrag.dk](https://www.itforedrag.dk/)
 
 ## Why
 
-Why would you want to inline the html of the tweet, instead of just using the inline functionality on twitter?
-Well by inlining the html of the tweet:
+Why would you want to inline the html of the tweet, instead of just using the embed functionality on twitter?
+By inlining the html of the tweet:
 
 1. You are removing external dependency on the twitter javascript. Using an external JavaScript both slows your page down and has security implications.
 2. It becomes possible to implement an effective lazyload of images
