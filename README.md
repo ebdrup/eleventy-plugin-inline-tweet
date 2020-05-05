@@ -6,7 +6,7 @@ This plugin will transform a text like:
 embedTweet:https://twitter.com/code_conf/status/651724049463312384
 ```
 
-Into the inlined HTML of the embedded tweet. Only large images will not be embedded.
+Into the inlined HTML of the embedded tweet, with styles inlined and smaller images also inlined. Only large images will not be embedded.
 
 You can see it in use at the bottom of my Danish page about my speaking engagements at [itforedrag.dk](https://www.itforedrag.dk/)
 

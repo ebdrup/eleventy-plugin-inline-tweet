@@ -13,6 +13,8 @@
     ".eleventy.js"
   ],
   "scripts": {
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags",
     "test": "mocha",
     "eslint:fix": "eslint --fix . || echo Unfixable errors were ignored and should be caught by the tests",
     "prettier:write": "prettier --loglevel warn --write \"**/*.@(js|jsx|ts|mjs|json|css|scss|less|html|htm|md|yml|yaml)\"",
