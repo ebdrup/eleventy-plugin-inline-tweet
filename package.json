@@ -1,16 +1,17 @@
 {
-  "name": "eleventy-plugin-embed-tweet",
+  "name": "eleventy-plugin-inline-tweet",
   "version": "0.1.1",
-  "description": "Eleventy plugin for embedding tweets",
+  "description": "Eleventy plugin for inlining tweets",
   "main": ".eleventy.js",
   "keywords": [
     "eleventy",
     "eleventy-plugin",
-    "embed",
+    "inline",
     "tweet"
   ],
   "files": [
-    ".eleventy.js"
+    ".eleventy.js",
+    "inlineTweet.js"
   ],
   "scripts": {
     "preversion": "npm test",
@@ -35,13 +36,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ebdrup/eleventy-plugin-embed-tweet"
+    "url": "https://github.com/ebdrup/eleventy-plugin-inline-tweet"
   },
   "license": "None",
   "bugs": {
-    "url": "https://github.com/ebdrup/eleventy-plugin-embed-tweet/issues"
+    "url": "https://github.com/ebdrup/eleventy-plugin-inline-tweet/issues"
   },
-  "homepage": "http://iteleventy-plugin-embed-tweet.dk",
+  "homepage": "http://iteleventy-plugin-inline-tweet.dk",
   "dependencies": {
     "cross-fetch": "3.0.4",
     "juice": "6.0.0",
