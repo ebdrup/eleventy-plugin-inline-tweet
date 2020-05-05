@@ -1,0 +1,68 @@
+{
+  "name": "eleventy-plugin-embed-tweet",
+  "version": "0.1.0",
+  "description": "Eleventy plugin for embedding tweets",
+  "main": ".eleventy.js",
+  "keywords": [
+    "eleventy",
+    "eleventy-plugin",
+    "embed",
+    "tweet"
+  ],
+  "files": [
+    ".eleventy.js"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "eslint:fix": "eslint --fix . || echo Unfixable errors were ignored and should be caught by the tests",
+    "prettier:write": "prettier --loglevel warn --write \"**/*.@(js|jsx|ts|mjs|json|css|scss|less|html|htm|md|yml|yaml)\"",
+    "format": "npm run eslint:fix && npm run prettier:write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.@(js|jsx|ts|mjs)": [
+      "eslint --fix"
+    ],
+    "*.@(js|jsx|ts|mjs|json|css|scss|less|html|htm|md|yml|yaml)": [
+      "prettier --loglevel warn --write"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ebdrup/eleventy-plugin-embed-tweet"
+  },
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/ebdrup/eleventy-plugin-embed-tweet/issues"
+  },
+  "homepage": "http://iteleventy-plugin-embed-tweet.dk",
+  "dependencies": {
+    "cross-fetch": "3.0.4",
+    "juice": "6.0.0",
+    "puppeteer": "3.0.2",
+    "tmp": "0.2.1"
+  },
+  "devDependencies": {
+    "@practio/eslint-config-practio": "7.1.0",
+    "@practio/prettier-config": "4.0.0",
+    "chai": "4.2.0",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.2",
+    "mocha": "7.1.2",
+    "mocha-eslint": "6.0.0",
+    "prettier": "2.0.5"
+  },
+  "mocha": {
+    "require": [
+      "./test/common.js"
+    ],
+    "spec": "./test/**/*.spec.js",
+    "recursive": true,
+    "timeout": 200000,
+    "exit": true
+  }
+}

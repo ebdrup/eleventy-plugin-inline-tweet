@@ -1,0 +1,7 @@
+{
+  "extends": ["@practio/practio"],
+  "env": {
+    "mocha": true
+  },
+  "globals": { "expect": true }
+}
