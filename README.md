@@ -44,7 +44,7 @@ Open up your Eleventy config file (probably `.eleventy.js`) and use `addPlugin`:
 const inlineTweetPlugin = require("eleventy-plugin-inline-tweet");
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(inclusiveLangPlugin);
+  eleventyConfig.addPlugin(inlineTweetPlugin);
 };
 ```
 
