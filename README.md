@@ -8,7 +8,11 @@ inlineTweet:https://twitter.com/code_conf/status/651724049463312384
 
 Into the inlined HTML of the tweet, with no external JavaScript needed, with styles inlined and smaller images also inlined. Only large images will not be inlineded.
 
-You can see it in use at the bottom of my Danish page about my speaking engagements at [itforedrag.dk](https://www.itforedrag.dk/)
+## Example of inlined tweet
+
+![image](https://user-images.githubusercontent.com/899914/81045079-c98e6a80-8eb5-11ea-987b-4c98132bef9c.png)
+
+You can also see it in use at the bottom of my Danish page about my speaking engagements at [itforedrag.dk](https://www.itforedrag.dk/). The code for that page is availabel on [Github foredrag](https://github.com/ebdrup/foredrag)
 
 ## Why
 
