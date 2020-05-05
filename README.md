@@ -6,7 +6,7 @@ This plugin will transform a text like:
 inlineTweet:https://twitter.com/code_conf/status/651724049463312384
 ```
 
-Into the inlined HTML of the tweet, with no external JavaScript needed, with styles inlined and smaller images also inlined. Only large images will not be inlineded.
+Into the inlined HTML of the tweet, with no external JavaScript needed, with styles inlined and smaller images also inlined. Only large images will not be inlined.
 
 ## Example of inlined tweet
 
