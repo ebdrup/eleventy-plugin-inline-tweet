@@ -1,6 +1,6 @@
 # eleventy-plugin-inline-tweet
 
-This plugin will transform a text like:
+This plugin will transform a text anywhere in your content that looks like:
 
 ```
 inlineTweet:https://twitter.com/code_conf/status/651724049463312384
