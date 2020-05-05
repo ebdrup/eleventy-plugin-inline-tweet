@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-embed-tweet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Eleventy plugin for embedding tweets",
   "main": ".eleventy.js",
   "keywords": [
