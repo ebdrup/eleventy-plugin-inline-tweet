@@ -44,7 +44,7 @@
   },
   "homepage": "http://iteleventy-plugin-inline-tweet.dk",
   "dependencies": {
-    "cross-fetch": "3.0.4",
+    "cross-fetch": "3.1.5",
     "juice": "6.0.0",
     "puppeteer": "3.0.2",
     "tmp": "0.2.1"
